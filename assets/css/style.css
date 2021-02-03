@@ -1,0 +1,2366 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                h1,
+                h2,
+                h3,
+                h4.h5,
+                h6 {
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;
+                }
+                
+                #header {
+                    position: fixed;
+                    width: 100%;
+                }
+                
+                .sticky {
+                    background-color: #ffffff;
+                    z-index: 99;
+                    transition: all ease-in-out 0.7s;
+                }
+                
+                .navbar {
+                    z-index: 1;
+                    background: transparent;
+                }
+                
+                .navbar-brand img {
+                    width: 200px;
+                }
+                
+                .nav-item {
+                    padding: 2px 25px 0 0;
+                }
+                
+                .nav-link {
+                    font-size: 17px;
+                    color: black;
+                    font-weight: 600;
+                }
+                
+                .nav-right-side i {
+                    padding-right: 20px;
+                    color: rgb(0, 26, 255);
+                }
+                
+                #banner {
+                    background: url('../img/right-shape.png') left no-repeat, url('../img/banner_shape_right.png') right top no-repeat;
+                    height: 160vh;
+                    width: 100%;
+                    z-index: 1;
+                }
+                
+                .banner-body {
+                    margin-top: 150px;
+                    margin-left: 50px;
+                }
+                
+                .banner-body h1 {
+                    font-size: 70px;
+                    font-weight: 900;
+                    margin-bottom: 20px;
+                    line-height: 1.3;
+                }
+                
+                .banner-body h1 span {
+                    color: rgb(6, 212, 212);
+                }
+                
+                .banner-txt {
+                    position: relative;
+                    top: 140px;
+                    left: 20px;
+                    overflow: hidden;
+                    width: 40%;
+                }
+                
+                .banner-txt p {
+                    font-size: 17px;
+                }
+                
+                .banner-txt .btn {
+                    padding: 10px 26px;
+                    color: white;
+                    background-color: rgb(3, 129, 240);
+                    border-radius: 30px;
+                }
+                
+                .c-bg {
+                    background: url('../img/service-card-bg.png') no-repeat;
+                    background-size: 650px;
+                }
+                
+                .img-outer {
+                    text-align: center;
+                    width: 240px;
+                    height: 230px;
+                    color: #ffffff;
+                    position: relative;
+                    left: 310px;
+                    bottom: 170px;
+                    padding: 50px;
+                    background: linear-gradient(to left, #1273EB, #1273EB);
+                    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                }
+                
+                .abt-body {
+                    width: 85%;
+                }
+                
+                .abt-body h2 {
+                    font-size: 35px;
+                    line-height: 1.3;
+                    margin-bottom: 20px;
+                }
+                
+                .abt-body h6 {
+                    font-size: 19px;
+                    font-weight: 200;
+                    line-height: 1.5;
+                    margin-bottom: 20px;
+                }
+                
+                .abt-body p {
+                    font-size: 16px;
+                    font-weight: 100;
+                    color: grey;
+                    line-height: 1.5;
+                    margin-bottom: 30px;
+                }
+                
+                .abt-body .btn {
+                    color: #ffffff;
+                    padding: 15px 40px;
+                    font-size: 17px;
+                    font-weight: 500;
+                    background: linear-gradient(to left, #1273EB, #1273EB);
+                    border-radius: 10px;
+                }
+                
+                .abt-body a .fa-4x {
+                    color: #1273EB;
+                }
+                
+                .item-a img {
+                    margin: 0px 20px;
+                }
+                
+                .icon-bg {
+                    background: url('../img/exp.png') left no-repeat;
+                    background-size: cover;
+                    width: 70px;
+                    height: 70px;
+                    margin-left: 20px;
+                }
+                
+                .icon-bg i {
+                    position: relative;
+                    left: 18px;
+                    top: 10px;
+                    font-size: 40px;
+                    color: #ffffff;
+                }
+                
+                #ourservices .card {
+                    padding: 20px;
+                }
+                
+                .counnts h2 {
+                    font-size: 80px;
+                }
+                
+                #pricing .card img {
+                    width: 180px !important;
+                    align-self: center;
+                }
+                
+                #pricing .card {
+                    padding: 18px !important;
+                }
+                
+                .price {
+                    margin-top: 50px;
+                }
+                
+                .price h3 {
+                    font-size: 45px;
+                    letter-spacing: 2px;
+                }
+                
+                .price h3 span {
+                    font-size: 25px;
+                }
+                
+                .price h6 {
+                    font-size: 16px;
+                    font-weight: 200;
+                    color: #9ddcec;
+                }
+                
+                .pricing-cards hr {
+                    align-self: center;
+                }
+                
+                .pricing-list {
+                    list-style: none;
+                }
+                
+                .pricing-list span {
+                    font-size: 15px;
+                    font-weight: 600;
+                    line-height: 2.7;
+                }
+                
+                .pricing-list i {
+                    float: right;
+                    margin-top: 11px;
+                    margin-right: 20px;
+                    color: #0381f0;
+                    /* width: 130px; */
+                    font-size: 17px;
+                }
+                
+                .card-body .btn {
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 11px 35px;
+                    position: relative;
+                    top: 50px;
+                    left: 60px;
+                    border-radius: 40px;
+                }
+                
+                .card-body span {
+                    font-size: 20px;
+                    color: #31cbe0;
+                    font-weight: 700;
+                }
+                
+                .product-type {
+                    position: absolute;
+                    right: 235px;
+                    top: 30px;
+                    background: #0381f0;
+                    width: 120px;
+                    padding: 7px 20px 7px 30px;
+                    height: 35px;
+                    color: #ffffff;
+                    border-radius: 0px 20px 20px 0px;
+                    /* top left, top right, bottom right, bottom left */
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                
+                #strategy {
+                    padding-top: 6rem !important;
+                }
+                
+                .str-title {
+                    margin-left: -30px;
+                }
+                
+                .strategy-types {
+                    margin-left: -60px;
+                }
+                
+                .strategy-types .ser-icon {
+                    font-size: 20px;
+                    margin-right: 30px;
+                    /* margin-top: 10px; */
+                    padding: 15px 25px 25px 20px;
+                    background: white;
+                    border: 1px solid rgb(221, 221, 221);
+                    width: 65px;
+                    height: 60px;
+                    border-radius: 40px;
+                    color: #318fe0;
+                }
+                
+                .ser-body h4 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-bottom: 15px;
+                }
+                
+                .ser-body p {
+                    font-size: 16px;
+                    color: rgb(133, 133, 133);
+                    line-height: 1.7;
+                }
+                
+                .str-title h6 {
+                    font-size: 18px;
+                    color: #9ddcec;
+                    letter-spacing: 1px;
+                    margin-bottom: 10px;
+                }
+                
+                .str-title h3 {
+                    font-size: 36px;
+                    line-height: 1.4;
+                    margin-bottom: 30px;
+                }
+                
+                .ceo-bg {
+                    background: url('../img/ceo-shape.png')right top no-repeat, url('../img/ceo-shape-2.png')bottom left no-repeat;
+                }
+                
+                .owl-carousel .card {
+                    width: 370px !important;
+                    height: 500px !important;
+                    padding: 27px;
+                    margin-top: 30px;
+                }
+                
+                #news-bolgs {
+                    height: 100vh;
+                    width: 100%;
+                }
+                
+                .news-bolgs .btn {
+                    padding: 30px;
+                    border-radius: 30px;
+                }
+                
+                .owl-carousel .card a {
+                    font-size: 15px;
+                }
+                
+                .owl-carousel .card .card-title {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    line-height: 1.5;
+                }
+                
+                .owl-carousel .card p {
+                    font-size: 16px;
+                }
+                
+                .card a {
+                    text-decoration: none;
+                }
+                
+                .owl-carousel .card .img-fluid {
+                    width: 320px !important;
+                    margin-bottom: 10px;
+                }
+                
+                .bcard-1 img {
+                    width: 40px !important;
+                    height: 40px;
+                    border-radius: 30px;
+                    margin-right: 6px;
+                }
+                
+                .b-card-fooer .bcard-1 span {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.6;
+                    margin-right: 50px;
+                    margin-top: 5px;
+                }
+                
+                .bcard-2 {
+                    margin-left: 32px;
+                    margin-top: 5px;
+                }
+                
+                .bcard-2 i {
+                    font-size: 13px;
+                    color: aqua;
+                    margin-right: 10px;
+                }
+                
+                .bcard-2 span {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                
+                #indexfooter {
+                    width: 100%;
+                    height: 100vh;
+                }
+                
+                #aboutfooter {
+                    width: 100%;
+                    height: 100vh;
+                }
+                
+                #servicefooter {
+                    width: 100%;
+                    height: 100vh;
+                }
+                
+                #contactfooter {
+                    width: 100%;
+                    height: 100vh;
+                }
+                
+                .newsletter {
+                    padding-top: 90px;
+                    padding-bottom: 20px;
+                    /* height: 50%; */
+                }
+                
+                .newsletter h2 {
+                    font-size: 36px;
+                    color: #ffffff;
+                }
+                
+                .newsletter input {
+                    color: #ffffff;
+                    padding: 16px 150px 16px 10px;
+                    background: transparent;
+                    border: 1px solid #318fe0;
+                }
+                
+                .newsletter .btn {
+                    padding: 20px 20x 1px 10px;
+                    background: #31cbe0;
+                    width: 70px;
+                    height: 56px;
+                    margin-left: -4px;
+                    margin-bottom: 4px;
+                }
+                
+                .newsletter i {
+                    font-size: 25px;
+                    color: #ffffff;
+                }
+                
+                .fcol {
+                    margin-left: -30px;
+                }
+                
+                .fcol-txt p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.7;
+                    color: #ffffff;
+                }
+                
+                .fcol-btn {
+                    padding: 15px 30px;
+                    color: #ffffff !important;
+                    background: #12adfc;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+                
+                 ::placeholder {
+                    color: #ffffff;
+                }
+                
+                input:focus {
+                    outline: none;
+                }
+                
+                .scol-title h3 {
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    font-size: 24px !important;
+                    color: #ffffff;
+                }
+                
+                .contact-info-1 {
+                    margin-bottom: 15px !important;
+                }
+                
+                .contact-info-1 span {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.6;
+                    padding-bottom: 20px;
+                    color: #ffffff;
+                }
+                
+                .contact-info-1 span i {
+                    font-size: 22px !important;
+                    margin-right: 25px;
+                    color: #ffffff;
+                }
+                
+                .tcol-title h3 {
+                    font-size: 24px;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    color: #ffffff;
+                }
+                
+                .info1-img img {
+                    margin-right: 20px;
+                    border-radius: 5px !important;
+                }
+                
+                .latest-post-1 {
+                    margin-bottom: 20px;
+                }
+                
+                .info1-txt p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #ffffff;
+                    margin-bottom: 0px;
+                }
+                
+                .info1-txt span {
+                    font-size: 13px;
+                    color: #ffffff;
+                    margin-bottom: 0px !important;
+                }
+                
+                .copyr-txt p {
+                    font-size: 16px;
+                    color: #ffffff;
+                    font-weight: 500;
+                }
+                
+                .copyr-icon {
+                    font-size: 16pxs;
+                }
+                
+                .copyr-icon i {
+                    padding: 6px 10px;
+                    color: #fff;
+                    background: #31cbe0;
+                }
+                /* >>>>>>> About CSS <<<<<<<<< */
+                
+                #aboutbanner {
+                    background: url('../img/about-bg.jpg')no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                    height: 65vh;
+                    position: relative;
+                }
+                
+                .aboutb-txt {
+                    width: 50%;
+                    height: 500px;
+                    position: absolute;
+                    left: 45%;
+                    top: 40%;
+                }
+                
+                .aboutb-txt h3 {
+                    font-size: 55px;
+                    font-weight: 900;
+                    color: #ffffff;
+                }
+                
+                .aboutb-txt p {
+                    margin-left: 30px;
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                
+                .ceo-dtl {
+                    position: relative;
+                    bottom: 60px;
+                    left: 120px;
+                    background-color: #1273EB;
+                    color: #fff;
+                    width: 320px;
+                    height: 120px;
+                    padding: 25px 50px;
+                    border-radius: 7px;
+                }
+                
+                .ceo-dtl h3 {
+                    font-size: 26px;
+                    font-weight: 500;
+                    word-spacing: 1px;
+                }
+                
+                .abtus-sec-img img {
+                    border-radius: 7px;
+                }
+                
+                .ceo-dtl p {
+                    font-size: 18px;
+                    font-weight: 100;
+                    letter-spacing: 2px;
+                    margin-left: 20px;
+                }
+                
+                .abts-title span {
+                    font-size: 18px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #318fe0;
+                    /* margin-bottom: 0px; */
+                }
+                
+                .abts-heading h3 {
+                    font-size: 36px;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+                
+                .abts-heading p {
+                    font-size: 16px;
+                }
+                
+                .abts-list {
+                    line-height: 1.7;
+                }
+                
+                .abts-list p {
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+                
+                .abts-list p i {
+                    font-size: 18px;
+                    /* font-weight: 600; */
+                    color: #1273EB;
+                    margin-right: 10px;
+                }
+                
+                .abts-btn .btn {
+                    margin-top: 20px;
+                    padding: 14px 30px;
+                    background: #1e80f0;
+                    color: #fff;
+                    font-size: 17px;
+                    border-radius: 6px;
+                }
+                
+                #funfact {
+                    height: 35vh;
+                    background: url('../img/funfact-bg.jpg');
+                    /* height: 40vh; */
+                    color: #fff;
+                }
+                
+                .funfact-heading h5 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                
+                .funfact-heading h3 {
+                    font-size: 36px;
+                    font-weight: 400;
+                }
+                
+                .count-hc h3 {
+                    font-size: 50px;
+                    font-weight: 900;
+                }
+                
+                .count-hc span {
+                    font-size: 15px;
+                }
+                
+                .count-hc h4 {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                
+                .expert-slide img {
+                    width: 350px;
+                    margin-right: 15px;
+                }
+                
+                .expert-detail {
+                    width: 310px;
+                    height: 100%;
+                    background: #fff;
+                    position: relative;
+                    bottom: 90px;
+                    /* left: 20px; */
+                    left: 20px;
+                    padding: 25px 0px;
+                }
+                
+                .expert-detail h4 {
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                
+                .expert-detail p {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+                
+                .expert-detail .hid {
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    line-height: 1.6;
+                    padding: 10px 20px;
+                }
+                
+                .expert-detail i {
+                    font-size: 15px;
+                    padding: 0 10px;
+                    color: #1273EB;
+                }
+                
+                #abt-form {
+                    width: 100%;
+                    height: 100vh;
+                    background: url('../img/about-form-bg.jpg');
+                }
+                
+                .form {
+                    background: #015baa;
+                    height: 100vh;
+                    padding: 80px;
+                    position: absolute;
+                    left: 785px;
+                }
+                
+                .abt-form-head p {
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+                
+                .abt-form-head h3 {
+                    font-size: 37px;
+                    color: #fff;
+                    font-weight: 700;
+                    margin-bottom: 50px;
+                }
+                
+                .form input {
+                    padding: 25px 30px;
+                    margin: 15px 0px;
+                    background: #0777da;
+                    border: none;
+                }
+                
+                textarea {
+                    background: #0777da;
+                    border: none;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                
+                .form .btn {
+                    color: #0777da;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding: 13px 25px !important;
+                    margin: 40px 0 0 0px;
+                }
+                /* >>>>> Service Section <<<<<<< */
+                
+                #servicebanner {
+                    background: url('../img/service-bg.jpg')left no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                    height: 65vh;
+                    position: relative;
+                }
+                
+                .serviceb-txt {
+                    width: 50%;
+                    height: 500px;
+                    position: absolute;
+                    left: 45%;
+                    top: 40%;
+                }
+                
+                .serviceb-txt h3 {
+                    font-size: 55px;
+                    font-weight: 900;
+                    color: #ffffff;
+                }
+                
+                .serviceb-txt p {
+                    margin-left: 30px;
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                
+                #service-cards .card {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    background: rgb(241, 246, 252);
+                    padding: 45px 30px;
+                    border: none;
+                }
+                
+                #service-cards img {
+                    width: 80px;
+                    align-self: center;
+                }
+                
+                #service-cards img:hover {
+                    transition: all ease 1000ms;
+                    transform: rotate(360deg);
+                }
+                
+                #service-cards .card-body h4 {
+                    font-size: 21px;
+                    font-weight: 700;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                
+                #service-cards .card-body p {
+                    font-size: 17px;
+                    font-weight: 300;
+                    line-height: 1.6;
+                    margin-top: 15px;
+                }
+                
+                #service-project {
+                    margin-top: 30px;
+                    padding: 30px;
+                    background: url('../img/funfact-bg.jpg');
+                    color: #fff;
+                }
+                
+                .serpro p {
+                    margin-top: 40px;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                
+                .serpro h3 {
+                    padding: 10px 220px;
+                    font-size: 40px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+                
+                .serpro .btn {
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: #0777da;
+                    padding: 15px 40px;
+                    background-color: #ffffff;
+                }
+                
+                #service-form {
+                    height: 100vh;
+                }
+                
+                #service-form .form {
+                    background: #015baa;
+                    height: 95vh;
+                    padding: 50px 50px 50px 80px;
+                    position: unset;
+                }
+                
+                .serv-form-head p {
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+                
+                .serv-form-head h3 {
+                    font-size: 37px;
+                    color: #fff;
+                    font-weight: 700;
+                    margin-bottom: 50px;
+                }
+                
+                .form input {
+                    padding: 15px 25px;
+                    margin: 15px 0px;
+                    background: #0777da;
+                    border: none;
+                }
+                
+                textarea {
+                    background: #0777da;
+                    border: none;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                
+                .form .btn {
+                    color: #0777da;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding: 13px 25px !important;
+                    margin: 20px 0 0 0px;
+                }
+                
+                #contactbanner {
+                    background: url('../img/contact-bg.jpg');
+                    background-size: cover;
+                    width: 100%;
+                    height: 65vh;
+                    position: relative;
+                }
+                
+                .contactb-txt {
+                    width: 50%;
+                    height: 500px;
+                    position: absolute;
+                    left: 45%;
+                    top: 40%;
+                }
+                
+                .contactb-txt h3 {
+                    font-size: 55px;
+                    font-weight: 900;
+                    color: #ffffff;
+                }
+                
+                .contactb-txt p {
+                    margin-left: 30px;
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                
+                #conatct-cards .card {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    background: rgb(241, 246, 252);
+                    padding: 45px 30px;
+                    border: none;
+                }
+                
+                .contact-card i {
+                    font-size: 90px;
+                    color: #0381f0;
+                    background-color: rgb(241, 246, 252);
+                }
+                
+                .contact-card h4 {
+                    font-size: 22px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+                
+                .contact-card p {
+                    font-size: 20px;
+                }
+                
+                #contact-form {
+                    height: 100vh;
+                }
+                
+                #contact-form .form {
+                    background: #015baa;
+                    height: 95vh;
+                    padding: 50px 50px 50px 80px;
+                    position: unset;
+                }
+                
+                .cont-form-head p {
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+                
+                .cont-form-head h3 {
+                    font-size: 37px;
+                    color: #fff;
+                    font-weight: 700;
+                    margin-bottom: 50px;
+                }
+                
+                .form input {
+                    padding: 15px 25px;
+                    margin: 15px 0px;
+                    background: #0777da;
+                    border: none;
+                }
+                
+                textarea {
+                    background: #0777da;
+                    border: none;
+                    padding-left: 20px;
+                    padding-top: 20px;
+                }
+                
+                .form .btn {
+                    color: #0777da;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding: 13px 25px !important;
+                    margin: 20px 0 0 0px;
+                }
+                
+                @media(max-width:768px) {
+                    .navbar-brand img {
+                        width: 140px;
+                        margin-left: -10px;
+                    }
+                    #banner {
+                        background: /*url('../img/right-shape.png')left no-repeat,*/
+                        url('../img/banner_shape_right.png') right top no-repeat;
+                        background-size: 485px;
+                        height: 60vh;
+                        width: 100%;
+                        z-index: 1;
+                    }
+                    .banner-body {
+                        /* width: 100%; */
+                        margin-top: 0px;
+                        margin-left: 20px;
+                        /* background: url('../img/right-shape.png') no-repeat; */
+                    }
+                    .banner-body h1 {
+                        font-size: 40px;
+                        font-weight: 900;
+                        margin-bottom: 20px;
+                        line-height: 1.3;
+                    }
+                    #aboutus {
+                        width: 100%;
+                    }
+                    #aboutus .col-md-12 {
+                        height: 50vh !important;
+                    }
+                    .abt-img img {
+                        width: 470px;
+                        margin-left: 50px;
+                    }
+                    .img-outer {
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        color: #ffffff;
+                        position: relative;
+                        left: 290px;
+                        bottom: 170px;
+                        padding: 50px;
+                        background: linear-gradient(to left, #1273EB, #1273EB);
+                        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                    }
+                    .abt-body {
+                        margin-left: 10px;
+                        width: 730px;
+                    }
+                    .abt-body h2 {
+                        font-size: 32px;
+                    }
+                    .abt-body h6 {
+                        font-size: 18px;
+                        font-weight: 100 !important;
+                    }
+                    .abt-buttons {
+                        display: flex;
+                    }
+                    #ourservices .card {
+                        padding: 10px;
+                    }
+                    .product-type {
+                        position: absolute;
+                        right: 215px;
+                        top: 30px;
+                        background: #0381f0;
+                        width: 120px;
+                        padding: 7px 20px 7px 30px;
+                        height: 35px;
+                        color: #ffffff;
+                        border-radius: 0px 20px 20px 0px;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    #pricing .card {
+                        padding: 15px 5px !important;
+                        margin-bottom: 30px;
+                    }
+                    #pricing .card img {
+                        width: 150px !important;
+                    }
+                    .card-body .btn {
+                        font-size: 16px;
+                        font-weight: 600;
+                        padding: 11px 35px;
+                        position: relative;
+                        top: 18px;
+                        left: 60px;
+                        border-radius: 40px;
+                    }
+                    .card-body span {
+                        font-size: 16px;
+                        color: #31cbe0;
+                        font-weight: 500;
+                    }
+                    #strategy {
+                        padding-top: 2rem !important;
+                        padding-left: 0px;
+                    }
+                    .str-title h3 {
+                        font-size: 31px;
+                        line-height: 1.3;
+                        margin-bottom: 30px;
+                    }
+                    .ser-body h4 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+                    }
+                    .ser-body p {
+                        font-size: 15px;
+                        color: rgb(133, 133, 133);
+                        line-height: 1.7;
+                    }
+                    .ceo-bg {
+                        margin-top: 60px;
+                        background: url('../img/ceo-shape.png')right top no-repeat, url('../img/ceo-shape-2.png')bottom left no-repeat;
+                    }
+                    .ceo-bg img {
+                        width: 350px;
+                        margin-top: 1s0px;
+                        margin-left: -40px;
+                    }
+                    .uk-card .card {
+                        width: 320px !important;
+                        padding: 13px;
+                        /* margin-right: -50px; */
+                    }
+                    .bcard-2 {
+                        margin-left: 0px;
+                        margin-top: 5px;
+                    }
+                    .card-body span {
+                        font-size: 14px;
+                        color: #31cbe0;
+                        font-weight: 400;
+                    }
+                    .owl-carousel .card .card-title {
+                        font-size: 18px;
+                        font-weight: 700;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        line-height: 1.5;
+                    }
+                    .owl-carousel .card p {
+                        font-size: 14px;
+                    }
+                    #news-bolgs {
+                        height: 66vh;
+                        width: 100%;
+                    }
+                    #indexfooter {
+                        width: 100%;
+                        height: 117vh;
+                    }
+                    .newsletter h2 {
+                        font-size: 25px;
+                        color: #ffffff;
+                        margin-left: 20px;
+                        margin-top: 10px;
+                    }
+                    .newsletter input {
+                        color: #ffffff;
+                        padding: 16px 20px 16px 10px;
+                        background: transparent;
+                        border: 1px solid #318fe0;
+                    }
+                    .new-input {
+                        padding-left: 30px !important;
+                    }
+                    .footer-logo img {
+                        width: 150px;
+                        margin-left: 20px;
+                    }
+                    .fcol-txt {
+                        margin-bottom: 40px;
+                        margin-left: 20px;
+                    }
+                    #indexfooter {
+                        height: 100vh;
+                    }
+                    /* <<< ABOUT MEDIA QURIES >>> */
+                    #aboutbanner {
+                        background: url('../img/about-bg.jpg')no-repeat;
+                        /* background-size: 1000px; */
+                        width: 100%;
+                        height: 50vh;
+                        position: relative;
+                    }
+                    .aboutb-txt {
+                        width: 200px;
+                        height: 100px;
+                        position: absolute;
+                        left: 45%;
+                        top: 33%;
+                    }
+                    .aboutb-txt h3 {
+                        font-size: 40px;
+                        font-weight: 900;
+                        color: #ffffff;
+                    }
+                    .aboutb-txt p {
+                        margin-left: 20px;
+                        font-size: 14px;
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                    .abtus-sec-img img {
+                        margin-left: 0px;
+                        width: 400px;
+                        margin-top: 130px;
+                    }
+                    .ceo-dtl {
+                        position: relative;
+                        bottom: 20px;
+                        left: 0px;
+                        background-color: #1273EB;
+                        color: #fff;
+                        width: 336px;
+                        height: 100px;
+                        padding: 20px 40px;
+                        border-radius: 7px;
+                    }
+                    .abts-heading h3 {
+                        font-size: 33px;
+                        font-weight: 600;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    }
+                    .abts-heading p {
+                        font-size: 16px;
+                    }
+                    .abts-list {
+                        line-height: 1.4;
+                    }
+                    .abts-list p {
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                    .funfact-heading h3 {
+                        font-size: 28px;
+                        font-weight: 400;
+                    }
+                    #abt-form {
+                        width: 100%;
+                        height: 65vh;
+                        background: url('../img/about-form-bg.jpg')no-repeat;
+                        background-size: 1000px;
+                    }
+                    .form {
+                        background: #015baa;
+                        height: 65vh;
+                        padding: 60px;
+                        position: absolute;
+                        left: 219px;
+                    }
+                    .abt-form-head h3 {
+                        font-size: 30px;
+                        color: #fff;
+                        font-weight: 700;
+                        margin-bottom: 30px;
+                    }
+                    .form input {
+                        padding: 15px 15px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                    }
+                    textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 400px;
+                        height: 100px;
+                    }
+                    #servicebanner {
+                        background: url('../img/service-bg.jpg')left center no-repeat;
+                        /* background-size: cover; */
+                        width: 100%;
+                        height: 65vh;
+                        position: relative;
+                        margin-top: -60px;
+                    }
+                    .serpro {
+                        margin: 25px 0px;
+                    }
+                    .serpro h3 {
+                        padding: 10px 20px;
+                        font-size: 35px;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                    }
+                    .serv-form-img img {
+                        width: 500px;
+                        height: 550px;
+                        margin-left: -20px;
+                    }
+                    #service-form {
+                        height: 55vh;
+                    }
+                    #service-form .form {
+                        background: #015baa;
+                        height: 53.8vh;
+                        padding: 50px 50px 0px 30px;
+                        position: unset;
+                        margin-left: -50px;
+                    }
+                    #service-form .form input {
+                        width: 120px;
+                        padding: 15px 10px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #service-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 260px;
+                    }
+                    #service-form .form .btn {
+                        font-size: 12px !important;
+                        color: #0777da;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        padding: 10px 15px !important;
+                        margin: 20px 0 0 0px;
+                    }
+                    .serv-form-head p {
+                        font-size: 12px;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        color: #fff;
+                    }
+                    .serv-form-head h3 {
+                        font-size: 25px;
+                        color: #fff;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                    }
+                    /* <<<<<< CONTACT MEDIA QURIES >>>>>>> */
+                    #contactbanner {
+                        background: url('../img/contact-bg.jpg')left center no-repeat;
+                        /* background-size: cover; */
+                        width: 100%;
+                        height: 50vh;
+                        position: relative;
+                        top: 40px;
+                        margin-top: -60px;
+                    }
+                    #contact-form {
+                        height: 45vh;
+                    }
+                    #contact-form .form {
+                        background: #015baa;
+                        height: 53.8vh;
+                        padding: 50px 50px 0px 30px;
+                        position: unset;
+                        margin-left: -50px;
+                    }
+                    #contact-form .form input {
+                        width: 120px;
+                        padding: 15px 10px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #contact-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 260px;
+                    }
+                    #contact-form .form .btn {
+                        font-size: 12px !important;
+                        color: #0777da;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        padding: 10px 15px !important;
+                        margin: 20px 0 0 0px;
+                    }
+                    .cont-form-head p {
+                        font-size: 12px;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        color: #fff;
+                    }
+                    .cont-form-head h3 {
+                        font-size: 25px;
+                        color: #fff;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                    }
+                    .cont-form-img img {
+                        width: 400px;
+                        height: 500px;
+                    }
+                }
+                
+                @media(max-width:600px) {
+                    #banner {
+                        margin-top: 1px;
+                        background: none;
+                        /* background-size: 385px; */
+                        height: 80vh;
+                        width: 100%;
+                        z-index: 1;
+                    }
+                    .banner-body {
+                        margin-top: 0px;
+                        margin-left: 0px;
+                    }
+                    .banner-txt {
+                        width: 400px;
+                    }
+                    .banner-body h1 {
+                        font-size: 30px;
+                        font-weight: 900;
+                        margin-bottom: 10px;
+                        line-height: 1.5;
+                    }
+                    .banner-txt p {
+                        font-size: 16px;
+                    }
+                    #aboutus {
+                        width: 100%;
+                        height: 100vh;
+                    }
+                    #aboutus .col-md-12 {
+                        height: 80vh !important;
+                    }
+                    .abt-img img {
+                        width: 470px;
+                        margin-left: 50px;
+                    }
+                    .img-outer {
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        color: #ffffff;
+                        position: relative;
+                        left: 290px;
+                        bottom: 170px;
+                        padding: 50px;
+                    }
+                    .abt-body {
+                        margin-left: 10px;
+                        width: 510px;
+                    }
+                    .abt-body h2 {
+                        font-size: 24px;
+                    }
+                    .abt-body h6 {
+                        font-size: 14px;
+                        font-weight: 100 !important;
+                    }
+                    .abt-body .btn {
+                        color: #ffffff;
+                        padding: 10px 20px;
+                        font-size: 17px;
+                        font-weight: 500;
+                        background: linear-gradient(to left, #1273EB, #1273EB);
+                        border-radius: 10px;
+                    }
+                    #brand-icons {
+                        margin-top: 330px;
+                    }
+                    #ourservices .card {
+                        width: 450px !important;
+                        margin-left: 20px;
+                        background-color: rgb(246, 251, 254);
+                    }
+                    #pricing .card {
+                        width: 350px;
+                        padding: 15px 5px !important;
+                        margin-bottom: 30px;
+                        margin-left: 50px;
+                    }
+                    .card-body .btn {
+                        font-size: 16px;
+                        font-weight: 600;
+                        padding: 11px 35px;
+                        position: relative;
+                        top: 18px;
+                        left: 80px;
+                        border-radius: 40px;
+                    }
+                    .ceo-bg img {
+                        width: 500px !important;
+                    }
+                    #news-bolgs {
+                        height: 100vh;
+                        /* width: 100%; */
+                        margin-bottom: 100px;
+                    }
+                    .uk-card .card {
+                        margin-right: 1px;
+                    }
+                    #indexfooter {
+                        width: 100%;
+                        height: 229vh;
+                    }
+                    .newsletter h2 {
+                        font-size: 26px;
+                        color: #ffffff;
+                        /* margin-left: 0px; */
+                        margin-top: 0px;
+                        text-align: center;
+                    }
+                    .newsletter input {
+                        color: #ffffff;
+                        padding: 20px 250px 20px 20px;
+                        background: transparent;
+                        border: 1px solid #318fe0;
+                        margin-top: 20px;
+                    }
+                    .new-input {
+                        padding-left: 0px !important;
+                    }
+                    .newsletter .btn {
+                        padding: 20px 30x 20px 10px !important;
+                        background: #31cbe0;
+                        width: 67px;
+                        height: 65px;
+                        margin-left: -5px;
+                        margin-bottom: 4px;
+                        /* font-size: 10px !important; */
+                    }
+                    .copyr-txt p {
+                        font-size: 14px;
+                        color: #ffffff;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                    .copyr-icon {
+                        float: unset;
+                        margin-right: 200px;
+                    }
+                    /* <<<< About Media Quries >>>> */
+                    #aboutbanner {
+                        background: url(../img/about-bg.jpg)no-repeat;
+                        /* background-size: 1000px; */
+                        width: 100%;
+                        height: 72vh;
+                        position: relative;
+                    }
+                    #aboutus {
+                        height: 100vh;
+                    }
+                    .abtus-sec-img img {
+                        margin-left: 0px;
+                        width: 530px;
+                        margin-top: 1px;
+                    }
+                    .ceo-dtl {
+                        position: relative;
+                        bottom: 70px;
+                        left: 0px;
+                        background-color: #1273EB;
+                        color: #fff;
+                        width: 515px;
+                        height: 130px;
+                        padding: 20px 40px;
+                        border-radius: 7px;
+                        text-align: center;
+                    }
+                    #funfact {
+                        height: 100vh;
+                        margin-top: 600px;
+                        margin-bottom: 1px;
+                    }
+                    #experts {
+                        margin-bottom: 0px;
+                    }
+                    .expert-slide img {
+                        width: 520px;
+                        margin-right: 1px;
+                    }
+                    .expert-detail {
+                        width: 310px;
+                        height: 100%;
+                        background: #fff;
+                        position: relative;
+                        bottom: 90px;
+                        /* left: 20px; */
+                        left: 20px;
+                        padding: 25px 0px;
+                    }
+                    .expert-detail {
+                        width: 310px;
+                        height: 100%;
+                        background: #fff;
+                        position: relative;
+                        bottom: 90px;
+                        /* left: 20px; */
+                        left: 100px;
+                        padding: 25px 0px;
+                    }
+                    #abt-form {
+                        height: 100vh;
+                    }
+                    #abt-form .form {
+                        background: #015baa;
+                        height: 110vh;
+                        width: 100%;
+                        padding: 70px 50px 70px 50px;
+                        position: absolute;
+                        left: 0px;
+                    }
+                    .form input {
+                        padding: 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                    }
+                    textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 485px;
+                        height: 120px;
+                    }
+                    #aboutfooter {
+                        margin-top: 0px;
+                    }
+                    #aboutfooter {
+                        height: 230vh;
+                    }
+                    /* <<<< SERVICE MEDIA QUIRIS >>> */
+                    #servicebanner {
+                        background: url(../img/service-bg.jpg)left no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        height: 73vh;
+                        position: relative;
+                        margin-top: 0px;
+                    }
+                    .serv-form-img img {
+                        display: none;
+                    }
+                    #service-form .form {
+                        background: #015baa;
+                        height: 100vh;
+                        padding: 50px 50px 0px 30px;
+                        position: unset;
+                        margin-left: 40px;
+                    }
+                    #service-form {
+                        height: 100vh;
+                    }
+                    #serv-form .form {
+                        background: #015baa;
+                        height: 100vh;
+                        width: 100%;
+                        padding: 70px 50px 70px 50px !important;
+                        position: absolute;
+                        left: 0px;
+                    }
+                    #service-form .form input {
+                        width: 190px;
+                        padding: 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #service-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 405px;
+                    }
+                    #servicefooter {
+                        width: 100%;
+                        height: 230vh;
+                    }
+                    /* >>> CONTACT MEDIA QURIES <<<< */
+                    #contactbanner {
+                        background: url(../img/contact-bg.jpg)left center no-repeat;
+                        /* background-size: cover; */
+                        width: 100%;
+                        height: 70vh;
+                        position: relative;
+                        top: 40px;
+                        margin-top: -60px;
+                    }
+                    .contact-card i {
+                        font-size: 80px;
+                        color: #0381f0;
+                        background-color: rgb(241, 246, 252);
+                    }
+                    .contact-card h4 {
+                        font-size: 18px;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                    }
+                    .contact-card p {
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                    .cont-form-img img {
+                        display: none;
+                    }
+                    #contact-form .form {
+                        background: #015baa;
+                        height: 100vh;
+                        padding: 50px 50px 0px 30px;
+                        position: unset;
+                        margin-left: 0px;
+                    }
+                    #map {
+                        height: 100vh;
+                        margin-top: 400px;
+                    }
+                    #contact-form .form input {
+                        width: 190px;
+                        padding: 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #contact-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 430px;
+                    }
+                    #contactfooter {
+                        width: 100%;
+                        height: 230vh;
+                    }
+                }
+                
+                @media(max-width:540px) {
+                    #banner {
+                        height: 70vh;
+                        width: 100%;
+                    }
+                    .abt-img img {
+                        width: 470px;
+                        margin-left: 10px;
+                    }
+                    .img-outer {
+                        width: 180px;
+                        position: relaabtive;
+                        left: 250px;
+                    }
+                    .abt-body {
+                        margin-left: 10px;
+                        width: 492px;
+                    }
+                    .counnts h2 {
+                        font-size: 60px;
+                    }
+                    .counnts h4 {
+                        font-size: 20px;
+                    }
+                    #pricing .card {
+                        width: 350px;
+                        padding: 15px 5px !important;
+                        margin-bottom: 30px;
+                        margin-left: 80px;
+                    }
+                    #strategy {
+                        padding-top: 2rem !important;
+                        padding-left: 40px;
+                    }
+                    .ceo-bg img {
+                        width: 450px !important;
+                    }
+                    .uk-card .card {
+                        width: 460px !important;
+                        padding: 23px;
+                        /* margin-right: -50px; */
+                    }
+                    .owl-carousel .card .img-fluid {
+                        width: 430px !important;
+                        margin-bottom: 10px;
+                    }
+                    .bcard-2 {
+                        margin-left: 100px;
+                        margin-top: 5px;
+                    }
+                    .newsletter {
+                        width: 99%;
+                    }
+                    .newsletter input {
+                        color: #ffffff;
+                        padding: 20px 230px 20px 20px;
+                        background: transparent;
+                        border: 1px solid #318fe0;
+                        margin-top: 20px;
+                    }
+                    .new-input {
+                        margin-left: 20px;
+                    }
+                    .footer-logo img {
+                        width: 150px;
+                        margin-left: 10px;
+                    }
+                    .fcol {
+                        margin-left: 0px;
+                    }
+                    .scol {
+                        width: 300px;
+                        margin-right: 0rem;
+                        margin-left: 0rem;
+                    }
+                    /* <<<<< ABOUT MEDIA QURIES >>>>> */
+                    #abt-form {
+                        height: 100vh;
+                    }
+                    #abt-form .form {
+                        background: #015baa;
+                        height: 140vh;
+                        width: 100%;
+                        padding: 70px 50px 70px 50px;
+                        position: absolute;
+                        left: 0px;
+                    }
+                    .form input {
+                        padding: 20px 225px 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                    }
+                    textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 450px;
+                        height: 120px;
+                    }
+                    #aboutfooter {
+                        margin-top: 220px;
+                    }
+                    /* <<<< SEERVICE MEDIA  QURIES >>>> */
+                    .serviceb-txt {
+                        width: 50%;
+                        height: 500px;
+                        position: absolute;
+                        left: 35%;
+                        top: 40%;
+                    }
+                    #service-form .form {
+                        height: 130vh;
+                    }
+                    #service-form .form input {
+                        width: 390px;
+                        padding: 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #servicefooter {
+                        margin-top: 200px;
+                    }
+                    /*>>>>>>> contact Media Quries <<<<<<<<<<*/
+                    .contactb-txt {
+                        width: 50%;
+                        height: 500px;
+                        position: absolute;
+                        left: 35%;
+                        top: 40%;
+                    }
+                    #contact-form .form {
+                        background: #015baa;
+                        height: 140vh;
+                        width: 100%;
+                        padding: 70px 50px 70px 50px;
+                        position: absolute;
+                        left: 0px;
+                    }
+                    #contact-form .form input {
+                        width: 190px;
+                        padding: 20px 220px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #contact-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 440px;
+                    }
+                    #map {
+                        margin-top: 600px;
+                    }
+                    #contactfooter {
+                        margin-top: 0px;
+                    }
+                }
+                
+                @media(max-width:420px) {
+                    .navbar-brand img {
+                        width: 160px;
+                        margin-left: -28px;
+                    }
+                    .banner-txt {
+                        position: relative;
+                        top: 110px;
+                        left: 5px;
+                        overflow: hidden;
+                        width: 330px;
+                    }
+                    .c-bg {
+                        margin-left: -20px;
+                    }
+                    .c-bg .card-body h4 {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    .c-bg .card-body p {
+                        font-size: 14px;
+                    }
+                    .abt-img img {
+                        width: 350px;
+                        margin-left: 10px;
+                        margin-top: -40px;
+                    }
+                    .img-outer {
+                        text-align: center;
+                        width: 180px;
+                        height: 150px;
+                        color: #ffffff;
+                        position: relative;
+                        left: 150px;
+                        bottom: 130px;
+                        padding: 30px;
+                    }
+                    .img-outer h6 {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    .abt-body {
+                        margin-left: 5px;
+                        width: 334px;
+                    }
+                    .abt-buttons .fa-4x {
+                        display: none;
+                    }
+                    #ourservices .card {
+                        width: 352px !important;
+                        margin-left: 20px;
+                        background-color: rgb(246, 251, 254);
+                    }
+                    #ourservices .card h4 {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    #pricing .card {
+                        width: 370px;
+                        margin-left: 10px;
+                    }
+                    .ceo-bg img {
+                        width: 380px !important;
+                        margin-left: -79px;
+                    }
+                    .news-heading h3 {
+                        font-size: 26px;
+                        margin-bottom: 20px;
+                    }
+                    .uk-card .card {
+                        width: 360px !important;
+                        padding: 23px;
+                        /* margin-right: -50px; */
+                    }
+                    .newsletter input {
+                        padding: 15px 120px 15px 20px;
+                    }
+                    #indexfooter .fcol-txt p {
+                        font-size: 14px;
+                    }
+                    .contact-info-1 span {
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 1.6;
+                        padding-bottom: 20px;
+                        color: #ffffff;
+                    }
+                    .info1-txt p {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #ffffff;
+                        margin-bottom: 0px;
+                    }
+                    .info1-txt span {
+                        font-size: 12px;
+                        color: #ffffff;
+                        margin-bottom: 0px !important;
+                    }
+                    .bcard-2 {
+                        margin-left: 10px;
+                        margin-top: 5px;
+                    }
+                    .copyr {
+                        margin-top: 0rem !important;
+                    }
+                    /* <<<< ABOUT MEDIA QURIES >>>> */
+                    .ceo-dtl {
+                        position: relative;
+                        bottom: 70px;
+                        left: 0px;
+                        background-color: #1273EB;
+                        color: #fff;
+                        width: 395px;
+                        height: 130px;
+                        padding: 20px 40px;
+                        border-radius: 7px;
+                        text-align: center;
+                    }
+                    .abts-title span {
+                        font-size: 14px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        color: #318fe0;
+                    }
+                    .abts-heading h3 {
+                        font-size: 28px;
+                        font-weight: 600;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    }
+                    .abts-heading p {
+                        font-size: 14px;
+                        line-height: 1.8;
+                        margin-bottom: 20px;
+                    }
+                    #funfact {
+                        height: 120vh;
+                    }
+                    .funfact-heading h5 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                    }
+                    .funfact-heading h3 {
+                        font-size: 24px;
+                        font-weight: 400;
+                    }
+                    .count-hc {
+                        margin-bottom: 30px;
+                    }
+                    .expert-slide img {
+                        width: 420px;
+                        margin-right: 1px;
+                    }
+                    .expert-detail {
+                        width: 270px;
+                        height: 100%;
+                        background: #fff;
+                        position: relative;
+                        bottom: 90px;
+                        left: 60px;
+                        padding: 25px 0px;
+                    }
+                    #abt-form {
+                        background: none;
+                    }
+                    #abt-form .form {
+                        background: #015baa;
+                        height: 140vh;
+                        width: 100%;
+                        padding: 50px 50px 70px 30px;
+                        position: absolute;
+                        left: 0px;
+                        margin-top: 20px;
+                    }
+                    .abt-form-head p {
+                        font-size: 13px;
+                        font-weight: 800;
+                        letter-spacing: 2px;
+                        color: #fff;
+                    }
+                    .abt-form-head h3 {
+                        font-size: 22px;
+                        color: #fff;
+                        font-weight: 800;
+                        margin-bottom: 30px;
+                    }
+                    .form input {
+                        padding: 20px 160px 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                    }
+                    textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 360px;
+                        height: 120px;
+                    }
+                    .form .btn {
+                        color: #0777da;
+                        font-size: 14px;
+                    }
+                    #aboutZfooter {
+                        margin-top: 240px;
+                    }
+                    .newsletter input {
+                        padding: 15px 110px 15px 20px;
+                    }
+                    .newsletter .btn {
+                        height: 57px;
+                    }
+                    #service-form .form {
+                        height: 130vh;
+                        width: 100%;
+                        margin-left: 23px
+                    }
+                    #service-form .form input {
+                        width: 320px;
+                        padding: 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #service-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 320px;
+                    }
+                    #conatct-cards .card {
+                        width: 350px;
+                        margin-left: 20px;
+                    }
+                    #contact-form .form input {
+                        width: 170px;
+                        padding: 20px 170px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #contact-form ::placeholder {
+                        color: #fff;
+                    }
+                    #contact-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 340px;
+                    }
+                }
+                
+                @media(max-width:360px) {
+                    .c-bg {
+                        background: url(../img/service-card-bg.png)right no-repeat;
+                        background-size: 260px;
+                    }
+                    .abt-img img {
+                        width: 350px;
+                        margin-left: 0px;
+                        margin-top: -40px;
+                    }
+                    #aboutus .col-md-12 {
+                        height: 57vh !important;
+                    }
+                    #ourservices .card {
+                        width: 342px !important;
+                        margin-left: 7px;
+                        background-color: rgb(246, 251, 254);
+                    }
+                    #pricing .card {
+                        width: 337px;
+                        margin-left: 10px;
+                    }
+                    .ceo-bg img {
+                        width: 330px !important;
+                        margin-left: -89px;
+                    }
+                    .uk-card .card {
+                        width: 324px !important;
+                        padding: 23px;
+                    }
+                    .bcard-2 {
+                        margin-left: 0px;
+                        margin-top: 5px;
+                    }
+                    .b-card-fooer .bcard-1 span {
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 1.6;
+                        margin-right: 50px;
+                        margin-top: 5px;
+                    }
+                    .card-body span {
+                        font-size: 13px;
+                        color: #31cbe0;
+                        font-weight: 400;
+                    }
+                    .newsletter-title {
+                        margin-left: -0px !important;
+                    }
+                    .newsletter h2 {
+                        text-align: center;
+                        font-size: 26px;
+                        color: #ffffff;
+                        /* margin-left: 25px; */
+                        margin-top: 0px;
+                        text-align: center;
+                    }
+                    .newsletter input {
+                        padding: 15px 41px 15px 20px;
+                    }
+                    /* >>>>>>> ABOUT MEDIA QURIES <<<<<<<< */
+                    #aboutbanner {
+                        background: url(../img/about-bg.jpg)no-repeat;
+                        background-size: cover;
+                        width: 100%;
+                        height: 72vh;
+                        position: relative;
+                    }
+                    .aboutb-txt {
+                        width: 200px;
+                        height: 100px;
+                        position: absolute;
+                        left: 36%;
+                        top: 33%;
+                    }
+                    .ceo-dtl {
+                        position: relative;
+                        bottom: 70px;
+                        left: 0px;
+                        width: 337px;
+                        height: 130px;
+                        padding: 20px 40px;
+                    }
+                    .expert-slide img {
+                        width: 330px;
+                        margin-right: 1px;
+                    }
+                    .expert-detail {
+                        width: 230px;
+                        /* height: 200px; */
+                        background: #fff;
+                        position: relative;
+                        bottom: 90px;
+                        left: 52px;
+                        padding: 25px 0px;
+                    }
+                    .form input {
+                        padding: 20px 100px 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                    }
+                    textarea {
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 300px;
+                        height: 120px;
+                    }
+                    .newsletter-title {
+                        margin-left: -0px !important;
+                    }
+                    .newsletter h2 {
+                        text-align: center;
+                        font-size: 26px;
+                        color: #ffffff;
+                        /* margin-left: 25px; */
+                        margin-top: 0px;
+                        text-align: center;
+                    }
+                    /* <<<< SERVICE MEDIA QURIES >>>> */
+                    .serviceb-txt {
+                        width: 50%;
+                        height: 500px;
+                        position: absolute;
+                        left: 23%;
+                        top: 40%;
+                    }
+                    .serviceb-txt h3 {
+                        font-size: 45px;
+                        font-weight: 900;
+                        color: #ffffff;
+                    }
+                    #service-form .form {
+                        height: 122vh;
+                        width: 100%;
+                        margin-left: 23px;
+                    }
+                    #service-form .form input {
+                        width: 277px;
+                        padding: 20px 25px;
+                        margin: 15px 0px;
+                        background: #0777da;
+                        border: none;
+                        font-size: 14px;
+                    }
+                    #service-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 278px;
+                    }
+                    .newsletter-title {
+                        margin-left: -0px !important;
+                    }
+                    /* >>>> CONTACT MEIDA QURIES <<<<< */
+                    #contactbanner {
+                        background: url(../img/contact-bg.jpg)left center no-repeat;
+                        background-size: cover;
+                        ;
+                    }
+                    .contactb-txt {
+                        position: absolute;
+                        left: 23%;
+                        top: 40%;
+                    }
+                    .contactb-txt h3 {
+                        font-size: 45px;
+                        font-weight: 900;
+                        color: #ffffff;
+                    }
+                    #conatct-cards .card {
+                        width: 300px;
+                        margin-left: 20px;
+                    }
+                    .fa-at:before {
+                        content: "\f1fa";
+                        font-size: 70px;
+                    }
+                    #contact-form .form input {
+                        width: 137px;
+                        padding: 20px 139px;
+                        margin: 15px 0px;
+                    }
+                    #contact-form textarea {
+                        background: #0777da;
+                        border: none;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        width: 278px;
+                    }
+                    .newsletter-title {
+                        margin-left: -0px !important;
+                    }
+                }
